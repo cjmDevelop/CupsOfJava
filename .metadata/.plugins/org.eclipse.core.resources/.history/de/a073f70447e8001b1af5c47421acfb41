@@ -1,0 +1,29 @@
+package com.manbodh;
+
+public class Icici extends Bank{
+
+	private float money;
+	private float interest;
+		
+	
+
+
+
+
+	public Icici(float money, float interest, float money2, float interest2) {
+		super(money, interest);
+		money = money2;
+		interest = interest2;
+	}
+
+
+
+
+
+
+	public void getRateOfInterest() {
+		System.out.println(money * interest);
+	}
+
+	
+}

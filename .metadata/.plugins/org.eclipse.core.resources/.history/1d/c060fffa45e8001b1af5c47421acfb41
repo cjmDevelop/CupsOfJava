@@ -1,0 +1,17 @@
+package com.manbodh;
+
+public class Bank {
+	
+	private float money;
+	private float interest;
+	
+	public Bank (float money, float interest) {
+		this.money = money;
+		this.interest = interest;
+	}
+
+	public void getRateOfInterest() {
+		System.out.println(money * interest);
+	}
+
+}

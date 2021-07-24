@@ -1,0 +1,10 @@
+package com.manbodh;
+
+public class AXIS extends Bank {
+	
+	public void test() {
+	System.out.println("axis");
+	}
+		
+
+}

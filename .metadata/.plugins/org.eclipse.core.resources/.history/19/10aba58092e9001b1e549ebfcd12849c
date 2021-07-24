@@ -1,0 +1,14 @@
+package simpleInheritence;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+Animal fido = new Dog();
+
+//fido.sleep();
+fido.setId(18);
+System.out.println(fido.getId());
+	}
+
+}

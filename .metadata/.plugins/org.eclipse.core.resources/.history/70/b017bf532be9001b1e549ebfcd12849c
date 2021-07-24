@@ -1,0 +1,12 @@
+package simpleInheritence;
+
+public class Dog extends Animal {
+	
+	private boolean isAwake;
+	
+	public void eat() {
+		eat();
+		System.out.println(" Kibble & Bits ");
+	}
+
+}

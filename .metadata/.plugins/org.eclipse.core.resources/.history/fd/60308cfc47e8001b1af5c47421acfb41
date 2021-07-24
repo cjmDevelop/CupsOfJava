@@ -1,0 +1,11 @@
+package com.manbodh;
+
+public class Bank {
+
+
+
+	public void getRateOfInterest(float money, float interest) {
+		System.out.println(money * interest);
+	}
+
+}

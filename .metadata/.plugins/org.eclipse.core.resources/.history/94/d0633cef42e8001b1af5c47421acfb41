@@ -1,0 +1,9 @@
+package com.manbodh;
+
+public class Bank {
+
+	public void test() {
+		System.out.println("Parent class Bank");
+	}
+
+}

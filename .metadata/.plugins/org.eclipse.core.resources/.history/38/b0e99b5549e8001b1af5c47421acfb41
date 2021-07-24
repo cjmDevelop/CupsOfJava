@@ -1,0 +1,17 @@
+package com.manbodh;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Bank sbi = new Sbi();
+		
+		Bank sbi1 = new Bank();
+		
+		//sbi.getRateOfInterest(100000);
+		sbi1.getRateOfInterest(100000);
+		
+
+	}
+
+}

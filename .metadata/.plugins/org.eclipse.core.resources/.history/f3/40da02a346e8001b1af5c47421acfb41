@@ -1,0 +1,15 @@
+package com.manbodh;
+
+public class Sbi extends Bank{
+
+	private float money;
+	private float interest;
+		
+	
+	public void getRateOfInterest() {
+		System.out.println(money * interest);
+	}
+
+
+	
+}

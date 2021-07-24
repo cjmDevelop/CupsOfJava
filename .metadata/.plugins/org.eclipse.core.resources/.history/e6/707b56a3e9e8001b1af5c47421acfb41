@@ -1,0 +1,6 @@
+
+public interface CarPartInterface {
+	
+	public void function();
+
+}

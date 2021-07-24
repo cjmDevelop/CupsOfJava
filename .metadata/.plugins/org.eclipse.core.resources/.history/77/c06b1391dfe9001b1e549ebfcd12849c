@@ -1,0 +1,12 @@
+package com.manbodh;
+
+public class PNB extends Bank {
+
+	@Override
+	public void getRateOfInteresti(int x) {
+System.out.println(.05 * x);
+		
+	}
+	
+
+}

@@ -1,0 +1,24 @@
+package scrap;
+
+
+import java.util.HashSet;
+
+
+public class Application_Scrap {
+
+	public static void main(String[] args) {
+		
+		HashSet <String>a = new HashSet<String>();
+		
+		a.add("Orangutang");
+		a.add("Spider Monkey");
+		a.add("Lemur");
+		
+		System.out.println(a);
+		System.out.println(a.size());
+		System.out.println(a.remove("Orangutang"));
+		System.out.println(a.size());
+	}
+
+
+}

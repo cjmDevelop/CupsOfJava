@@ -1,0 +1,20 @@
+package com.Manbodh;
+
+public class PoundsToKilograms {
+
+	static int pounds = 30;
+	
+	public static double kilograms = pounds / 2.2046;
+	
+	int dick = 7;
+	public static int dickInVagina = dick % 3;
+	
+	
+	
+	public static void main(String args[]) {
+		 System.out.println(" 30 pounds converted into kilograms is " + kilograms + "!");
+		 System.out.println(dickInVagina);
+		 
+	}
+
+}

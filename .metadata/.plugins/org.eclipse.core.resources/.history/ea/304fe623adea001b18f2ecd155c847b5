@@ -1,0 +1,18 @@
+package scrap;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Application_Scrap {
+
+	public static void main(String[] args) {
+
+		  // ArrayList 
+	      List a1 = new ArrayList();
+	      a1.add("Zara");
+	      a1.add("Mahnaz");
+	      a1.add("Ayan");
+	      System.out.println(" ArrayList Elements");
+	      System.out.print("\t" + a1);
+	}
+}

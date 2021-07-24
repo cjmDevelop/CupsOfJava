@@ -1,0 +1,6 @@
+package simpleInheritence;
+
+public class Dog extends Animal {
+	
+
+}

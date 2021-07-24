@@ -1,0 +1,12 @@
+
+public class Simulator {
+
+	public static void main(String[] args) {
+		
+		Car mustangGT97 = new Car();
+		
+		mustangGT97.run();
+
+	}
+
+}

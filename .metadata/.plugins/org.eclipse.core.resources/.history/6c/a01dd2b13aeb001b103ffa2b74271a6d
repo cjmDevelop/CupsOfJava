@@ -1,0 +1,22 @@
+package com.manbodh;
+abstract class Dog{
+	public void bark() {
+		System.out.println("Woof woof...");
+	}
+}
+
+class Chihuahah extends Dog{
+	
+}
+
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Chihuahah a = new Chihuahah();
+		a.bark();
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.manbodh;
+
+import java.util.HashMap;
+
+public class Hashy {
+
+	public static void main(String[] args) {
+
+		HashMap a = new HashMap();
+		
+		a.put("newYork", "Yankees");
+		a.put("Anaheim", "Angels");
+		a.put("Chicago", "WhiteSox");
+		
+		System.out.println("t/" +a);
+
+	}
+
+}

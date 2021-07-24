@@ -1,0 +1,14 @@
+package com.manbodh;
+
+public class Axis {
+private float money;
+private float interest;
+	
+	
+	
+	public void getRateOfInterest() {
+		System.out.println(money * interest);
+	}
+
+
+}

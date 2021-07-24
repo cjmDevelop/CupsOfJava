@@ -1,0 +1,15 @@
+package scrap;
+
+public class Application_Scrap {
+
+	public static void main(String[] args) {
+		int numz [] = {1, 2, 3, 4, 5};
+		
+		//System.out.println(numz[0]);
+		
+		for(int i = 0; i < numz.length; i++) {
+			System.out.println(numz[i]);
+		}
+	}
+
+}

@@ -1,0 +1,45 @@
+package com.manbodh;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class BBQ {
+
+	public static void main(String[] args) {
+		
+		Queue<String> bbqLine = new LinkedList<String>();
+		
+		bbqLine.add("Jackson");
+		bbqLine.add("Tyreek");
+		bbqLine.add("Susan");
+System.out.println(bbqLine);		
+//	bbqLine.poll();
+//		bbqLine.peek();
+//		bbqLine.poll();
+//		bbqLine.poll();
+
+		//=================================================================================
+		
+		Queue<String> q = new LinkedList<String>();
+		
+
+		q.add("A");
+		q.add("B");
+		q.add("C");
+		
+		System.out.println(q);
+		
+	}
+}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+

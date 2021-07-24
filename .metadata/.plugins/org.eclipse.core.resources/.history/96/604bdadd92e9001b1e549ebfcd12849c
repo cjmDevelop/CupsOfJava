@@ -1,0 +1,28 @@
+package simpleInheritence;
+
+public class Animal {
+	
+	
+int id;
+	
+	
+
+	public int getId() {
+	return id;
+}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+//	private boolean alive;
+	
+	public void eat() {
+		System.out.println("Eating...");
+	}
+	
+	public void sleep() {
+		System.out.println("sleeping...");
+	}
+
+}

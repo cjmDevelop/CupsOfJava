@@ -1,0 +1,14 @@
+package com.manbodh;
+
+public class SBI extends Bank{
+
+
+
+public void test() {
+	System.out.println("sbi");
+}
+	
+
+
+	
+}

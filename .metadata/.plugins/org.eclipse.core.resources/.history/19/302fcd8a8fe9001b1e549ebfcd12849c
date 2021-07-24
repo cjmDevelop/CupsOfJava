@@ -1,0 +1,13 @@
+package simpleInheritence;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+Animal fido = new Animal();
+
+fido.eat();
+//fido.sleep();
+	}
+
+}

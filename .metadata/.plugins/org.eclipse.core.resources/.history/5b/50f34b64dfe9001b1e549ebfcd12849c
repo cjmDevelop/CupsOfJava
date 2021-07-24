@@ -1,0 +1,5 @@
+package com.manbodh;
+
+public abstract class Bank {
+
+}

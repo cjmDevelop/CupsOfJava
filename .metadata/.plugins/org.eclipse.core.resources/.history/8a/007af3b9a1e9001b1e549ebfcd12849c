@@ -1,0 +1,30 @@
+import theRightWay_Encapsulation.EnhancedPlayer; //i mistankenly made another package o show the right way for
+//encapsulation so i had to import theRighWay_Encapsulation.EnhancedPlayer
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+//		Player player = new Player();
+//		
+//		player.name = "tim";
+//		player.health = 20;
+//		player.weapon = "Sword";
+//		
+//		int damage = 10;
+//		player.lostHealth(damage);
+//		System.out.println("Remaining health = " + player.healthRemaining());
+//		
+//		damage = 11;
+//		
+//		player.lostHealth(damage);
+//		System.out.println("Remaining health = " + player.healthRemaining());
+		
+		EnhancedPlayer enhancedPlayer = new EnhancedPlayer("Joe", 200, "Sword");
+		System.out.println("Initial health is: " + enhancedPlayer.getHealth());
+		
+//		enhancedPlayer.lostHealth(damage);
+
+	}
+
+}
